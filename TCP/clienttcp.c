@@ -28,7 +28,7 @@ int main() {
   printf("[Client] Sent: Yes\n");
 
   char buf[20];
-  read(fd, buf, 8); // expect "goodbye"
+  read(fd, buf, 8); // expect "Close"
 
   printf("[Client] Received: %s\n", buf);
 
