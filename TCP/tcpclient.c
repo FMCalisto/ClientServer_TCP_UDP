@@ -8,7 +8,8 @@
 
 #define PORT 58000
 
-int main() {
+int main()
+{
   int fd, newfd;
   struct hostent *hostptr;
   struct sockaddr_in serveraddr, clientaddr;
